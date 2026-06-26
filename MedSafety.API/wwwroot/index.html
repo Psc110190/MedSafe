@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSafety - Medication Safety Knowledge Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">&#9764;</span>
+                    <div>
+                        <h1>MedSafety</h1>
+                        <p class="tagline">Medication Safety Knowledge Service</p>
+                    </div>
+                </div>
+                <nav class="nav-tabs">
+                    <button class="tab active" data-tab="screening">Safety Screening</button>
+                    <button class="tab" data-tab="drug-lookup">Drug Lookup</button>
+                    <button class="tab" data-tab="quick-check">Quick Check</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- SAFETY SCREENING TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="screening-tab" class="tab-content active">
+            <div class="card">
+                <h2>Patient Safety Screening</h2>
+                <p class="subtitle">Enter patient details to screen proposed medications for contraindications, 
+                    drug interactions, allergy risks, and warnings.</p>
+
+                <form id="screening-form">
+                    <div class="form-grid">
+                        <!-- Left Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="patientId">Patient ID (optional)</label>
+                                <input type="text" id="patientId" placeholder="e.g., PT-12345">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="number" id="age" placeholder="e.g., 65" min="0" max="150">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group checkbox-group">
+                                    <label>
+                                        <input type="checkbox" id="isPregnant">
+                                        Pregnant
+                                    </label>
+                                </div>
+                                <div class="form-group checkbox-group">
+                                    <label>
+                                        <input type="checkbox" id="isBreastfeeding">
+                                        Breastfeeding
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="allergies">Known Allergies</label>
+                                <div class="tag-input-container">
+                                    <div id="allergy-tags" class="tags"></div>
+                                    <input type="text" id="allergy-input" placeholder="Type & press Enter (e.g., Penicillin, Sulfa, NSAIDs)"
+                                           list="allergy-suggestions">
+                                </div>
+                                <datalist id="allergy-suggestions">
+                                    <option value="Penicillin">
+                                    <option value="Amoxicillin">
+                                    <option value="Sulfa">
+                                    <option value="NSAIDs">
+                                    <option value="Aspirin">
+                                    <option value="Cephalosporin">
+                                    <option value="Fluoroquinolone">
+                                    <option value="Macrolide">
+                                    <option value="Tetracycline">
+                                    <option value="ACE Inhibitor">
+                                    <option value="Statin">
+                                    <option value="Opioid">
+                                    <option value="Iodine">
+                                    <option value="Latex">
+                                    <option value="Benzodiazepine">
+                                </datalist>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comorbidities">Comorbidities / Medical Conditions</label>
+                                <div class="tag-input-container">
+                                    <div id="comorbidity-tags" class="tags"></div>
+                                    <input type="text" id="comorbidity-input" placeholder="Type & press Enter (e.g., Myasthenia Gravis, Asthma)"
+                                           list="comorbidity-suggestions">
+                                </div>
+                                <datalist id="comorbidity-suggestions">
+                                    <option value="Myasthenia Gravis">
+                                    <option value="Asthma">
+                                    <option value="COPD">
+                                    <option value="Diabetes">
+                                    <option value="Hypertension">
+                                    <option value="Heart Failure">
+                                    <option value="Renal Failure">
+                                    <option value="Hepatic Impairment">
+                                    <option value="Epilepsy">
+                                    <option value="Peptic Ulcer">
+                                    <option value="Glaucoma">
+                                    <option value="QT Prolongation">
+                                    <option value="Bleeding Disorder">
+                                    <option value="Depression">
+                                    <option value="Bradycardia">
+                                    <option value="Hypotension">
+                                    <option value="Hyperkalemia">
+                                    <option value="Gout">
+                                    <option value="Pheochromocytoma">
+                                    <option value="G6PD Deficiency">
+                                    <option value="Parkinson">
+                                </datalist>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="currentComplaints">Current Complaints / Diagnosis</label>
+                                <div class="tag-input-container">
+                                    <div id="complaint-tags" class="tags"></div>
+                                    <input type="text" id="complaint-input" placeholder="e.g., Pneumonia, Chest pain">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="currentMeds">Current Medications</label>
+                                <div class="tag-input-container">
+                                    <div id="current-med-tags" class="tags"></div>
+                                    <input type="text" id="current-med-input" placeholder="Type & press Enter (e.g., Warfarin, Metformin)"
+                                           list="drug-suggestions">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="proposedMeds">Proposed Medications <span class="required">*</span></label>
+                                <div class="tag-input-container highlight">
+                                    <div id="proposed-med-tags" class="tags"></div>
+                                    <input type="text" id="proposed-med-input" placeholder="Type & press Enter (e.g., Telithromycin, Ciprofloxacin)"
+                                           list="drug-suggestions">
+                                </div>
+                                <small>At least one proposed medication is required for screening.</small>
+                            </div>
+
+                            <datalist id="drug-suggestions">
+                                <option value="Telithromycin">
+                                <option value="Amoxicillin">
+                                <option value="Ciprofloxacin">
+                                <option value="Azithromycin">
+                                <option value="Levofloxacin">
+                                <option value="Metoprolol">
+                                <option value="Lisinopril">
+                                <option value="Warfarin">
+                                <option value="Ibuprofen">
+                                <option value="Aspirin">
+                                <option value="Metformin">
+                                <option value="Simvastatin">
+                                <option value="Atorvastatin">
+                                <option value="Tramadol">
+                                <option value="Sertraline">
+                                <option value="Prednisone">
+                                <option value="Carbamazepine">
+                                <option value="Omeprazole">
+                                <option value="Metoclopramide">
+                                <option value="Amlodipine">
+                                <option value="Clopidogrel">
+                                <option value="Digoxin">
+                                <option value="Spironolactone">
+                                <option value="Amiodarone">
+                                <option value="Methotrexate">
+                                <option value="Lithium">
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary" id="screen-btn">
+                            <span class="btn-icon">&#128269;</span> Screen Medications
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="clear-btn">Clear All</button>
+                        <button type="button" class="btn btn-secondary" id="demo-btn">Load Demo Patient</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results -->
+            <div id="screening-results" class="results-container" style="display:none;"></div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- DRUG LOOKUP TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="drug-lookup-tab" class="tab-content">
+            <div class="card">
+                <h2>Drug Knowledge Base</h2>
+                <p class="subtitle">Browse and search the medication database for detailed safety information.</p>
+                <div class="search-bar">
+                    <input type="text" id="drug-search" placeholder="Search drugs by name, class, or category..."
+                           list="drug-suggestions">
+                    <button class="btn btn-primary" id="search-drug-btn">Search</button>
+                </div>
+                <div id="drug-list" class="drug-list"></div>
+            </div>
+            <div id="drug-detail" class="card" style="display:none;"></div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- QUICK CHECK TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="quick-check-tab" class="tab-content">
+            <div class="card">
+                <h2>Quick Safety Check</h2>
+                <p class="subtitle">Quickly check a single drug against a condition, allergy, or existing medication.</p>
+                <div class="quick-check-form">
+                    <div class="form-group">
+                        <label for="qc-drug">Drug to Check <span class="required">*</span></label>
+                        <input type="text" id="qc-drug" placeholder="e.g., Telithromycin" list="drug-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-condition">Patient Condition</label>
+                        <input type="text" id="qc-condition" placeholder="e.g., Myasthenia Gravis" list="comorbidity-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-allergy">Known Allergy</label>
+                        <input type="text" id="qc-allergy" placeholder="e.g., Penicillin" list="allergy-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-current-med">Current Medication</label>
+                        <input type="text" id="qc-current-med" placeholder="e.g., Warfarin" list="drug-suggestions">
+                    </div>
+                    <button class="btn btn-primary" id="quick-check-btn">
+                        <span class="btn-icon">&#9889;</span> Quick Check
+                    </button>
+                </div>
+            </div>
+            <div id="quick-check-results" class="results-container" style="display:none;"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Disclaimer:</strong> This tool is for educational and clinical decision support purposes only. 
+            Always verify with official drug references (FDA labels, DailyMed, clinical guidelines) before making prescribing decisions.
+            Not a substitute for professional medical judgment.</p>
+            <p>&copy; 2026 MedSafety Knowledge Service | Hackathon Project</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

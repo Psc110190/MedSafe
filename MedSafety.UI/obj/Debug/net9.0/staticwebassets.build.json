@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "69thNgR9/s4c1J/7/Ygp2klZCc+HyKZiurZwKzdyYyw=",
+  "Source": "MedSafety.UI",
+  "BasePath": "_content/MedSafety.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MedSafety.UI\\wwwroot",
+      "Source": "MedSafety.UI",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\12fo2fcunc-3ymsx4h8xl.gz",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "css/styles#[.{fingerprint=3ymsx4h8xl}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "79jby1jtte",
+      "Integrity": "xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\592pnlnu3q-a3qdn4qyhg.gz",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "js/app#[.{fingerprint=a3qdn4qyhg}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "77pe0lwa8u",
+      "Integrity": "E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\js\\app.js"
+    },
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\xl9wln489h-o9bnkrih81.gz",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "index#[.{fingerprint=o9bnkrih81}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "iu3d816914",
+      "Integrity": "Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ymsx4h8xl",
+      "Integrity": "1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\index.html",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9bnkrih81",
+      "Integrity": "zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3qdn4qyhg",
+      "Integrity": "qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.3ymsx4h8xl.css",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\12fo2fcunc-3ymsx4h8xl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000130667712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ymsx4h8xl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.3ymsx4h8xl.css",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ymsx4h8xl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.3ymsx4h8xl.css.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\12fo2fcunc-3ymsx4h8xl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ymsx4h8xl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\12fo2fcunc-3ymsx4h8xl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000130667712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\12fo2fcunc-3ymsx4h8xl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVNFjmv77OCJx85bGVHNLKmxk4PJH5DgZ5Ai3qGcCp8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\xl9wln489h-o9bnkrih81.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000209511837"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4772"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\xl9wln489h-o9bnkrih81.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI="
+        }
+      ]
+    },
+    {
+      "Route": "index.o9bnkrih81.html",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\xl9wln489h-o9bnkrih81.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000209511837"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4772"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9bnkrih81"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "index.o9bnkrih81.html",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9bnkrih81"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "index.o9bnkrih81.html.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\xl9wln489h-o9bnkrih81.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9bnkrih81"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rl9Ds20hz5L3/dcUyqpX/z2AXIG3Mo8KQnJunDIumyI="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.a3qdn4qyhg.js",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\592pnlnu3q-a3qdn4qyhg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000052637120"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3qdn4qyhg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.a3qdn4qyhg.js",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3qdn4qyhg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.a3qdn4qyhg.js.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\592pnlnu3q-a3qdn4qyhg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3qdn4qyhg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\592pnlnu3q-a3qdn4qyhg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000052637120"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js.gz",
+      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.UI\\obj\\Debug\\net9.0\\compressed\\592pnlnu3q-a3qdn4qyhg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2uqql7bfUExoS+gXPtpOFBrpQX/t+r3OBc/BrGLYgc="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "b4e73804816e4714951c3b1faf21b740",
+    "name": "Insulin with hypoglycemia or poor intake",
+    "enabled": true,
+    "level": "High",
+    "category": "Patient Context Warning",
+    "medicationTerms": [
+      "insulin glargine",
+      "insulin lispro",
+      "insulin"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "hypoglycemia"
+    ],
+    "riskFlagTerms": [
+      "NPO",
+      "poor oral intake"
+    ],
+    "message": "Insulin from the Type 1 diabetes row can worsen hypoglycemia when the patient is already hypoglycemic, NPO, or has poor oral intake.",
+    "suggestedAction": "Check current glucose and meal status; hold, reduce, or adjust insulin dose per protocol before administration.",
+    "source": "Type 1 diabetes",
+    "createdAt": "2026-05-14T07:17:07.0975336Z",
+    "updatedAt": "2026-05-14T07:38:42.0732176Z"
+  },
+  {
+    "id": "5accf2593ce64d7dbf9345b8f03759f1",
+    "name": "Glipizide with hypoglycemia or poor intake",
+    "enabled": true,
+    "level": "High",
+    "category": "Patient Context Warning",
+    "medicationTerms": [
+      "glipizide",
+      "sulfonylurea"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "hypoglycemia"
+    ],
+    "riskFlagTerms": [
+      "NPO",
+      "poor oral intake"
+    ],
+    "message": "Glipizide from the Type 2 diabetes row can cause prolonged hypoglycemia, especially with low glucose, missed meals, NPO status, or poor intake.",
+    "suggestedAction": "Avoid or hold glipizide until intake and glucose are stable; consider safer diabetes options for the current context.",
+    "source": "Type 2 diabetes",
+    "createdAt": "2026-05-14T07:17:07.1126697Z",
+    "updatedAt": "2026-05-14T07:38:42.0713177Z"
+  },
+  {
+    "id": "761aaeb5b0514f2986ded032089a6597",
+    "name": "Metformin during acute illness or renal risk",
+    "enabled": true,
+    "level": "Critical",
+    "category": "Must Avoid / Hold",
+    "medicationTerms": [
+      "metformin"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "vomiting"
+    ],
+    "riskFlagTerms": [
+      "acute kidney injury",
+      "metabolic acidosis",
+      "diabetic ketoacidosis",
+      "sepsis",
+      "hypoxia",
+      "shock",
+      "dehydration",
+      "acute illness"
+    ],
+    "message": "Metformin from the Type 2 diabetes row should be held in acute illness, AKI, hypoxia, sepsis, shock, dehydration, DKA, or metabolic acidosis because lactic acidosis risk may increase.",
+    "suggestedAction": "Hold metformin and reassess renal function, perfusion, oxygenation, and acid-base status before restarting.",
+    "source": "Type 2 diabetes",
+    "createdAt": "2026-05-14T07:17:07.1179697Z",
+    "updatedAt": "2026-05-14T07:38:42.0750068Z"
+  },
+  {
+    "id": "020b854a764b4adbbc72858ea0d77056",
+    "name": "Semaglutide or sitagliptin with pancreatitis concern",
+    "enabled": true,
+    "level": "High",
+    "category": "Use With Caution",
+    "medicationTerms": [
+      "semaglutide",
+      "sitagliptin"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "abdominal pain"
+    ],
+    "riskFlagTerms": [
+      "pancreatitis history"
+    ],
+    "message": "Semaglutide or sitagliptin from the Type 2 diabetes row should be used cautiously when pancreatitis history or concerning abdominal pain is present.",
+    "suggestedAction": "Avoid starting or temporarily hold and evaluate for pancreatitis if symptoms suggest it.",
+    "source": "Type 2 diabetes",
+    "createdAt": "2026-05-14T07:17:07.1223181Z",
+    "updatedAt": "2026-05-14T07:38:42.0800522Z"
+  },
+  {
+    "id": "57ff1456ce434318bbbb6248fa2140c7",
+    "name": "Sacubitril-valsartan with ACE/ARB angioedema or recent ACE inhibitor",
+    "enabled": true,
+    "level": "Critical",
+    "category": "Contraindication",
+    "medicationTerms": [
+      "sacubitril-valsartan",
+      "Entresto",
+      "valsartan"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [],
+    "riskFlagTerms": [
+      "ACE/ARB angioedema history",
+      "ACE inhibitor within 36 hours"
+    ],
+    "message": "Sacubitril-valsartan from the heart failure row should be avoided with prior ACE/ARB angioedema or if an ACE inhibitor was used within the last 36 hours.",
+    "suggestedAction": "Do not administer; verify ACE inhibitor washout and angioedema history, then choose an alternative regimen if needed.",
+    "source": "heart failure/heart condition",
+    "createdAt": "2026-05-14T07:17:07.1268639Z",
+    "updatedAt": "2026-05-14T07:38:42.0783467Z"
+  },
+  {
+    "id": "246de57d7e5443d2a6d943c860c69452",
+    "name": "Beta blocker with asthma/COPD, heart block, or decompensated HF",
+    "enabled": true,
+    "level": "High",
+    "category": "Use With Caution",
+    "medicationTerms": [
+      "metoprolol",
+      "propranolol",
+      "beta blocker"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "dyspnea",
+      "dizziness"
+    ],
+    "riskFlagTerms": [
+      "asthma/COPD",
+      "heart block",
+      "decompensated heart failure",
+      "shock"
+    ],
+    "message": "Metoprolol or propranolol from the heart failure/hyperthyroid rows can worsen bronchospasm, bradycardia/heart block, shock, or decompensated heart failure.",
+    "suggestedAction": "Review heart rate, blood pressure, conduction disease, respiratory status, and HF stability before giving a beta blocker.",
+    "source": "heart failure/heart condition; hyperthyroid",
+    "createdAt": "2026-05-14T07:17:07.1316178Z",
+    "updatedAt": "2026-05-14T07:38:42.0675459Z"
+  },
+  {
+    "id": "22d13e8a3ae443c9b0dc615587e995bd",
+    "name": "Methimazole with fever, sore throat, or neutropenia",
+    "enabled": true,
+    "level": "High",
+    "category": "Safety Alert",
+    "medicationTerms": [
+      "methimazole"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [
+      "fever",
+      "sore throat",
+      "infection"
+    ],
+    "riskFlagTerms": [
+      "neutropenia"
+    ],
+    "message": "Methimazole from the hyperthyroid row can rarely cause agranulocytosis; fever, sore throat, infection symptoms, or neutropenia require urgent review.",
+    "suggestedAction": "Hold methimazole and obtain CBC/ANC urgently; escalate for clinician review.",
+    "source": "hyperthyroid",
+    "createdAt": "2026-05-14T07:17:07.1412526Z",
+    "updatedAt": "2026-05-14T07:38:42.0767644Z"
+  },
+  {
+    "id": "38aa94f6ff1d4f37b5380f9017e67631",
+    "name": "Thyroid hormone with recent MI or significant cardiac disease",
+    "enabled": true,
+    "level": "High",
+    "category": "Use With Caution",
+    "medicationTerms": [
+      "levothyroxine",
+      "liothyronine",
+      "thyroid hormone"
+    ],
+    "conditionTerms": [],
+    "allergyTerms": [],
+    "symptomTerms": [],
+    "riskFlagTerms": [
+      "recent MI or unstable angina",
+      "significant cardiac disease"
+    ],
+    "message": "Levothyroxine or liothyronine from the hypothyroid row should be used cautiously in recent MI, unstable angina, or significant cardiac disease because thyroid hormone can increase myocardial oxygen demand.",
+    "suggestedAction": "Start low, titrate slowly, and verify cardiac stability before dose escalation.",
+    "source": "hypothyroid",
+    "createdAt": "2026-05-14T07:17:07.1472633Z",
+    "updatedAt": "2026-05-14T07:38:42.0817704Z"
+  }
+]

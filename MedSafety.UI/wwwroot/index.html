@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSafety - Medication Safety Knowledge Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div>
+                        <h1>MedSafety</h1>
+                        <p class="tagline">Medication Safety Knowledge Service</p>
+                    </div>
+                </div>
+                <nav class="nav-tabs">
+                    <button class="tab active" data-tab="screening">Safety Screening</button>
+                    <button class="tab" data-tab="drug-lookup">Drug Lookup</button>
+                    <button class="tab" data-tab="quick-check">Quick Check</button>
+                    <button class="tab" data-tab="rules">Rules</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- SAFETY SCREENING TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="screening-tab" class="tab-content active">
+            <div class="card">
+                <div class="screening-card-header">
+                    <div>
+                        <h2>Patient Safety Screening</h2>
+                        <p class="subtitle">Enter patient details to screen proposed medications and condition-based candidates for contraindications, 
+                            drug interactions, allergy risks, and patient-context warnings.</p>
+                    </div>
+                    <div class="demo-patient-picker">
+                        <label for="demo-scenario-select">Demo patient</label>
+                        <select id="demo-scenario-select" aria-label="Load demo patient scenario">
+                            <option value="">Select scenario</option>
+                        </select>
+                    </div>
+                </div>
+
+                <form id="screening-form">
+                    <div class="form-grid">
+                        <!-- Left Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="patientId">Patient ID (optional)</label>
+                                <input type="text" id="patientId" placeholder="e.g., PT-12345">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="number" id="age" placeholder="e.g., 65" min="0" max="150">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group checkbox-group">
+                                    <label>
+                                        <input type="checkbox" id="isPregnant">
+                                        Pregnant
+                                    </label>
+                                </div>
+                                <div class="form-group checkbox-group">
+                                    <label>
+                                        <input type="checkbox" id="isBreastfeeding">
+                                        Breastfeeding
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="allergy-input">Known Allergies</label>
+                                <div class="tag-input-container">
+                                    <div id="allergy-tags" class="tags"></div>
+                                    <input type="text" id="allergy-input" placeholder="Type & press Enter (e.g., Penicillin, Sulfa, NSAIDs)"
+                                           list="allergy-suggestions">
+                                </div>
+                                <datalist id="allergy-suggestions">
+                                    <option value="Penicillin">
+                                    <option value="Amoxicillin">
+                                    <option value="Sulfa">
+                                    <option value="NSAIDs">
+                                    <option value="Aspirin">
+                                    <option value="Cephalosporin">
+                                    <option value="Fluoroquinolone">
+                                    <option value="Macrolide">
+                                    <option value="Tetracycline">
+                                    <option value="ACE Inhibitor">
+                                    <option value="Statin">
+                                    <option value="Opioid">
+                                    <option value="Iodine">
+                                    <option value="Latex">
+                                    <option value="Benzodiazepine">
+                                </datalist>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comorbidity-input">Comorbidities / Medical Conditions</label>
+                                <div class="tag-input-container">
+                                    <div id="comorbidity-tags" class="tags"></div>
+                                    <input type="text" id="comorbidity-input" placeholder="Type & press Enter (e.g., Myasthenia Gravis, Asthma)"
+                                           list="comorbidity-suggestions">
+                                </div>
+                                <datalist id="comorbidity-suggestions">
+                                    <option value="Myasthenia Gravis">
+                                    <option value="Asthma">
+                                    <option value="COPD">
+                                    <option value="Diabetes">
+                                    <option value="Type 1 diabetes">
+                                    <option value="Type 2 diabetes">
+                                    <option value="Hypertension">
+                                    <option value="Heart Failure">
+                                    <option value="Hypothyroidism">
+                                    <option value="Hyperthyroidism">
+                                    <option value="Renal Failure">
+                                    <option value="Hepatic Impairment">
+                                    <option value="Epilepsy">
+                                    <option value="Peptic Ulcer">
+                                    <option value="Glaucoma">
+                                    <option value="QT Prolongation">
+                                    <option value="Bleeding Disorder">
+                                    <option value="Depression">
+                                    <option value="Bradycardia">
+                                    <option value="Hypotension">
+                                    <option value="Hyperkalemia">
+                                    <option value="Gout">
+                                    <option value="Pheochromocytoma">
+                                    <option value="G6PD Deficiency">
+                                    <option value="Parkinson">
+                                </datalist>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="complaint-input">Current Complaints/Diagnosis/Symptoms</label>
+                                <div class="tag-input-container">
+                                    <div id="complaint-tags" class="tags"></div>
+                                    <input type="text" id="complaint-input" placeholder="e.g., Heart attack, Chest pain, Sore throat"
+                                           list="complaint-suggestions">
+                                </div>
+                                <small>Type diagnoses, symptoms, or risk flags. Matching entries are used by patient-context safety rules.</small>
+                                <datalist id="complaint-suggestions">
+                                    <option value="Heart attack / acute MI">
+                                    <option value="Chest pain">
+                                    <option value="Heart failure exacerbation">
+                                    <option value="Hyperthyroid symptoms">
+                                    <option value="Hypoglycemia">
+                                    <option value="Dizziness">
+                                    <option value="Syncope">
+                                    <option value="Vomiting">
+                                    <option value="Abdominal pain">
+                                    <option value="Fever">
+                                    <option value="Sore throat">
+                                    <option value="Dyspnea">
+                                    <option value="Shortness of breath">
+                                    <option value="UTI symptoms">
+                                    <option value="Infection">
+                                    <option value="NPO">
+                                    <option value="Poor intake">
+                                    <option value="Acute illness">
+                                    <option value="Recent surgery">
+                                    <option value="Dehydration">
+                                    <option value="Metabolic acidosis">
+                                    <option value="DKA">
+                                    <option value="Acute kidney injury">
+                                    <option value="Sepsis">
+                                    <option value="Hypoxia">
+                                    <option value="Shock">
+                                    <option value="Anuria">
+                                    <option value="Bowel obstruction">
+                                    <option value="Urinary obstruction">
+                                    <option value="Asthma/COPD">
+                                    <option value="Heart block">
+                                    <option value="Decompensated HF">
+                                    <option value="Cardiac disease">
+                                    <option value="Recent MI/unstable angina">
+                                    <option value="Adrenal insufficiency">
+                                    <option value="MTC history">
+                                    <option value="MEN2 history">
+                                    <option value="Pancreatitis history">
+                                    <option value="ACE/ARB angioedema">
+                                    <option value="Neutropenia">
+                                    <option value="Gout">
+                                    <option value="Digoxin use">
+                                    <option value="Potassium supplement">
+                                    <option value="K-sparing diuretic">
+                                    <option value="Aliskiren use">
+                                    <option value="ACE inhibitor within 36h">
+                                    <option value="Heavy alcohol use">
+                                    <option value="Reduced insulin">
+                                </datalist>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="current-med-input">Current Medications</label>
+                                <div class="tag-input-container">
+                                    <div id="current-med-tags" class="tags"></div>
+                                    <input type="text" id="current-med-input" placeholder="Type & press Enter (e.g., Warfarin, Metformin)"
+                                           list="drug-suggestions">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="proposed-med-input">Proposed Medications</label>
+                                <div class="tag-input-container highlight">
+                                    <div id="proposed-med-tags" class="tags"></div>
+                                    <input type="text" id="proposed-med-input" placeholder="Type & press Enter (e.g., Telithromycin, Ciprofloxacin)"
+                                           list="drug-suggestions">
+                                </div>
+                                <small>Optional. If empty, medication candidates are inferred from conditions.</small>
+                            </div>
+
+                            <datalist id="drug-suggestions">
+                                <option value="Telithromycin">
+                                <option value="Amoxicillin">
+                                <option value="Ciprofloxacin">
+                                <option value="Azithromycin">
+                                <option value="Levofloxacin">
+                                <option value="Metoprolol">
+                                <option value="Lisinopril">
+                                <option value="Warfarin">
+                                <option value="Ibuprofen">
+                                <option value="Aspirin">
+                                <option value="Metformin">
+                                <option value="Simvastatin">
+                                <option value="Atorvastatin">
+                                <option value="Tramadol">
+                                <option value="Sertraline">
+                                <option value="Prednisone">
+                                <option value="Carbamazepine">
+                                <option value="Omeprazole">
+                                <option value="Metoclopramide">
+                                <option value="Amlodipine">
+                                <option value="Clopidogrel">
+                                <option value="Digoxin">
+                                <option value="Spironolactone">
+                                <option value="Amiodarone">
+                                <option value="Methotrexate">
+                                <option value="Lithium">
+                                <option value="Insulin glargine">
+                                <option value="Insulin lispro">
+                                <option value="Glipizide">
+                                <option value="Sitagliptin">
+                                <option value="Semaglutide">
+                                <option value="Pyridostigmine">
+                                <option value="Hydrochlorothiazide">
+                                <option value="Sacubitril-valsartan">
+                                <option value="Empagliflozin">
+                                <option value="Furosemide">
+                                <option value="Levothyroxine">
+                                <option value="Liothyronine">
+                                <option value="Methimazole">
+                                <option value="Propranolol">
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <details class="context-panel labs-vitals-panel" open>
+                        <summary>
+                            <span>Labs &amp; Vitals</span>
+                            <span class="collapse-icon" aria-hidden="true"></span>
+                        </summary>
+                        <div class="context-grid labs-vitals-body">
+                            <div class="form-group">
+                                <label for="glucose">Glucose mg/dL</label>
+                                <input type="number" id="glucose" placeholder="e.g., 92" step="0.1">
+                            </div>
+                            <div class="form-group">
+                                <label for="egfr">eGFR</label>
+                                <input type="number" id="egfr" placeholder="e.g., 74" step="0.1">
+                            </div>
+                            <div class="form-group">
+                                <label for="potassium">Potassium mEq/L</label>
+                                <input type="number" id="potassium" placeholder="e.g., 4.2" step="0.1">
+                            </div>
+                            <div class="form-group">
+                                <label for="sodium">Sodium mEq/L</label>
+                                <input type="number" id="sodium" placeholder="e.g., 139" step="0.1">
+                            </div>
+                            <div class="form-group">
+                                <label for="heartRate">Heart rate</label>
+                                <input type="number" id="heartRate" placeholder="e.g., 72" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="systolicBp">Systolic BP</label>
+                                <input type="number" id="systolicBp" placeholder="e.g., 124" min="0">
+                            </div>
+                        </div>
+
+                    </details>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary" id="screen-btn">
+                            <span class="btn-icon">&#128269;</span> Screen Medications
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="clear-btn">Clear All</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results -->
+            <div id="screening-results" class="results-container" style="display:none;"></div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- DRUG LOOKUP TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="drug-lookup-tab" class="tab-content">
+            <div class="card">
+                <h2>Drug Knowledge Base</h2>
+                <p class="subtitle">Browse and search the medication database for detailed safety information.</p>
+                <div class="search-bar">
+                    <input type="text" id="drug-search" placeholder="Search drugs by name, class, or category..."
+                           list="drug-suggestions">
+                    <button class="btn btn-primary" id="search-drug-btn">Search</button>
+                </div>
+                <div id="drug-list" class="drug-list"></div>
+            </div>
+            <div id="drug-detail" class="card" style="display:none;"></div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- QUICK CHECK TAB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <section id="quick-check-tab" class="tab-content">
+            <div class="card">
+                <h2>Quick Safety Check</h2>
+                <p class="subtitle">Quickly check a single drug against a condition, allergy, or existing medication.</p>
+                <div class="quick-check-form">
+                    <div class="form-group">
+                        <label for="qc-drug">Drug to Check <span class="required">*</span></label>
+                        <input type="text" id="qc-drug" placeholder="e.g., Telithromycin" list="drug-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-condition">Patient Condition</label>
+                        <input type="text" id="qc-condition" placeholder="e.g., Myasthenia Gravis" list="comorbidity-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-allergy">Known Allergy</label>
+                        <input type="text" id="qc-allergy" placeholder="e.g., Penicillin" list="allergy-suggestions">
+                    </div>
+                    <div class="form-group">
+                        <label for="qc-current-med">Current Medication</label>
+                        <input type="text" id="qc-current-med" placeholder="e.g., Warfarin" list="drug-suggestions">
+                    </div>
+                    <button class="btn btn-primary" id="quick-check-btn">
+                        <span class="btn-icon">&#9889;</span> Quick Check
+                    </button>
+                </div>
+            </div>
+            <div id="quick-check-results" class="results-container" style="display:none;"></div>
+        </section>
+
+        <section id="rules-tab" class="tab-content">
+            <div class="card">
+                <div class="section-toolbar">
+                    <div>
+                        <h2>Rule Manager</h2>
+                        <p class="subtitle">Manage custom patient-context medication safety rules.</p>
+                    </div>
+                    <div class="toolbar-actions">
+                        <button type="button" class="btn btn-secondary" id="refresh-rules-btn">&#8635; Refresh</button>
+                        <button type="button" class="btn btn-primary" id="new-rule-btn">&#43; Add Rule</button>
+                    </div>
+                </div>
+
+                <div id="rules-list-view" class="rule-view">
+                    <div class="rule-stat-strip">
+                        <div>
+                            <strong id="rules-total-count">0</strong>
+                            <span>Total</span>
+                        </div>
+                        <div>
+                            <strong id="rules-critical-count">0</strong>
+                            <span>Critical</span>
+                        </div>
+                        <div>
+                            <strong id="rules-high-count">0</strong>
+                            <span>High</span>
+                        </div>
+                        <div>
+                            <strong id="rules-disabled-count">0</strong>
+                            <span>Disabled</span>
+                        </div>
+                    </div>
+
+                    <div class="rule-filter-row">
+                        <div class="form-group">
+                            <label for="rule-search">Search rules</label>
+                            <input type="search" id="rule-search" placeholder="Medication, trigger, category, source">
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-severity-filter">Severity</label>
+                            <select id="rule-severity-filter">
+                                <option value="">All severities</option>
+                                <option value="Critical">Critical</option>
+                                <option value="High">High</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="rules-list-status" class="form-status" aria-live="polite"></div>
+                    <div id="rules-list" class="rules-list"></div>
+                </div>
+
+                <section id="rule-detail-view" class="rule-view rule-detail-panel" hidden>
+                    <div class="rule-mode-header">
+                        <button type="button" class="btn btn-secondary" id="rule-detail-back-btn">&#8592; Back</button>
+                        <div class="rule-mode-actions">
+                            <button type="button" class="btn btn-secondary" id="rule-detail-edit-btn">&#9998; Edit</button>
+                            <button type="button" class="btn btn-danger" id="rule-detail-delete-btn">&#128465; Delete</button>
+                        </div>
+                    </div>
+                    <div id="rule-detail-content"></div>
+                </section>
+
+                <form id="rule-form" class="rule-editor-panel rule-view" hidden>
+                    <input type="hidden" id="rule-id">
+                    <div class="rule-mode-header">
+                        <button type="button" class="btn btn-secondary" id="cancel-rule-btn">&#8592; Back</button>
+                        <label class="toggle-row">
+                            <input type="checkbox" id="rule-enabled" checked>
+                            Enabled
+                        </label>
+                    </div>
+                    <div class="rule-editor-header">
+                        <h3 id="rule-editor-title">Add Rule</h3>
+                    </div>
+
+                    <div class="form-grid dense-grid">
+                        <div class="form-group">
+                            <label for="rule-name">Rule Name</label>
+                            <input type="text" id="rule-name" placeholder="e.g., Avoid NSAID in active GI bleed" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-level">Severity</label>
+                            <select id="rule-level">
+                                <option value="Critical">Critical</option>
+                                <option value="High" selected>High</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-category">Category</label>
+                            <input type="text" id="rule-category" placeholder="e.g., Custom Contraindication" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-source">Source</label>
+                            <input type="text" id="rule-source" placeholder="Custom rule">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rule-medications">Medication Terms</label>
+                        <input type="text" id="rule-medications" placeholder="e.g., Ibuprofen, NSAID, Advil" required>
+                    </div>
+
+                    <div class="form-grid dense-grid">
+                        <div class="form-group">
+                            <label for="rule-conditions">Condition / Complaint Triggers</label>
+                            <input type="text" id="rule-conditions" placeholder="e.g., GI bleed, peptic ulcer">
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-allergies">Allergy Triggers</label>
+                            <input type="text" id="rule-allergies" placeholder="e.g., NSAID, aspirin">
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-symptoms">Symptom Triggers</label>
+                            <input type="text" id="rule-symptoms" placeholder="e.g., vomiting, dyspnea">
+                        </div>
+                        <div class="form-group">
+                            <label for="rule-risk-flags">Risk Flag Triggers</label>
+                            <input type="text" id="rule-risk-flags" placeholder="e.g., dehydration, recent surgery">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rule-message">Warning Message</label>
+                        <textarea id="rule-message" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="rule-action">Suggested Action</label>
+                        <textarea id="rule-action" rows="2" required></textarea>
+                    </div>
+
+                    <div id="rule-form-status" class="form-status"></div>
+                    <div class="form-actions compact-actions">
+                        <button type="submit" class="btn btn-primary" id="save-rule-btn">&#128190; Save Rule</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Disclaimer:</strong> This tool is for educational and clinical decision support purposes only. 
+            Always verify with official drug references (FDA labels, DailyMed, clinical guidelines) before making prescribing decisions.
+            Not a substitute for professional medical judgment.</p>
+            <p>&copy; 2026 MedSafety Knowledge Service | Hackathon Project</p>
+        </div>
+    </footer>
+
+    <script src="/config.js"></script>
+    <script src="js/app.js?v=20260515-logo-removed"></script>
+</body>
+</html>
