@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "27+ZmNYc9YqeYUe5VQttYEL7ats+yPgiCn+Pxkd49gs=",
+  "Hash": "pIrpAjWPTshcbEsnuWYFNAr09GWTjizQKHf6FZx1Q8Q=",
   "Source": "MedSafety.API",
   "BasePath": "_content/MedSafety.API",
   "Mode": "Default",
@@ -10,322 +10,68 @@
     {
       "Name": "MedSafety.API\\wwwroot",
       "Source": "MedSafety.API",
-      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\",
       "BasePath": "_content/MedSafety.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\css\\styles.css",
       "SourceId": "MedSafety.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\",
       "BasePath": "_content/MedSafety.API",
-      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "RelativePath": "css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w3zy052df6",
-      "Integrity": "PHo8ATdaPvkFCcIQ5EC4CSNqjvt7M3e9kQh8YbiTNTk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\index.html",
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\index.html",
       "SourceId": "MedSafety.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\",
       "BasePath": "_content/MedSafety.API",
-      "RelativePath": "index#[.{fingerprint}]?.html",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k2182kcv2e",
-      "Integrity": "bElm5XHOZOQfhtYkfu4BlGx1l5LJQQ8Ql4GfKPedJB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\js\\app.js",
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\js\\app.js",
       "SourceId": "MedSafety.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\",
       "BasePath": "_content/MedSafety.API",
-      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "RelativePath": "js/app.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ubammj4les",
-      "Integrity": "yl9D0oK3J+xWCGliFxSm6vwLKITESxhP01oelU70ChI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\app.js"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "css/styles.css",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22888"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PHo8ATdaPvkFCcIQ5EC4CSNqjvt7M3e9kQh8YbiTNTk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 May 2026 12:01:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PHo8ATdaPvkFCcIQ5EC4CSNqjvt7M3e9kQh8YbiTNTk="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.w3zy052df6.css",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22888"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PHo8ATdaPvkFCcIQ5EC4CSNqjvt7M3e9kQh8YbiTNTk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 May 2026 12:01:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w3zy052df6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PHo8ATdaPvkFCcIQ5EC4CSNqjvt7M3e9kQh8YbiTNTk="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15425"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bElm5XHOZOQfhtYkfu4BlGx1l5LJQQ8Ql4GfKPedJB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 19:53:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bElm5XHOZOQfhtYkfu4BlGx1l5LJQQ8Ql4GfKPedJB4="
-        }
-      ]
-    },
-    {
-      "Route": "index.k2182kcv2e.html",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15425"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bElm5XHOZOQfhtYkfu4BlGx1l5LJQQ8Ql4GfKPedJB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 19:53:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k2182kcv2e"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bElm5XHOZOQfhtYkfu4BlGx1l5LJQQ8Ql4GfKPedJB4="
-        }
-      ]
-    },
-    {
-      "Route": "js/app.js",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\js\\app.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26083"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yl9D0oK3J+xWCGliFxSm6vwLKITESxhP01oelU70ChI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 May 2026 12:01:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yl9D0oK3J+xWCGliFxSm6vwLKITESxhP01oelU70ChI="
-        }
-      ]
-    },
-    {
-      "Route": "js/app.ubammj4les.js",
-      "AssetFile": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\js\\app.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26083"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yl9D0oK3J+xWCGliFxSm6vwLKITESxhP01oelU70ChI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 May 2026 12:01:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ubammj4les"
-        },
-        {
-          "Name": "label",
-          "Value": "js/app.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yl9D0oK3J+xWCGliFxSm6vwLKITESxhP01oelU70ChI="
-        }
-      ]
     }
   ]
 }

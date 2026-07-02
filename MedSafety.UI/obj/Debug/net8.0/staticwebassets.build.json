@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "vLCiDbhAfV5dVwwLqIceJfh3fsG+m8zF9iRZq9jP/8c=",
+  "Source": "MedSafety.UI",
+  "BasePath": "_content/MedSafety.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MedSafety.UI\\wwwroot",
+      "Source": "MedSafety.UI",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ymsx4h8xl",
+      "Integrity": "1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\index.html",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9bnkrih81",
+      "Integrity": "zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "SourceId": "MedSafety.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\",
+      "BasePath": "_content/MedSafety.UI",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3qdn4qyhg",
+      "Integrity": "qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.3ymsx4h8xl.css",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ymsx4h8xl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "index.o9bnkrih81.html",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 09:05:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9bnkrih81"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zNjdv3ik2+0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.a3qdn4qyhg.js",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3qdn4qyhg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "C:\\PoonamGit\\MedSafe\\MedSafety.UI\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 08:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="
+        }
+      ]
+    }
+  ]
+}

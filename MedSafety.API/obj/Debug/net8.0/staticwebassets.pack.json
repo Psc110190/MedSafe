@@ -1,20 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\css\\styles.css",
+      "Id": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\index.html",
+      "Id": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Hackathon\\MedSafetyKnowledgeService\\MedSafety.API\\wwwroot\\js\\app.js",
+      "Id": "C:\\PoonamGit\\MedSafe\\MedSafety.API\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MedSafety.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MedSafety.API.Microsoft.AspNetCore.StaticWebAssets.props",

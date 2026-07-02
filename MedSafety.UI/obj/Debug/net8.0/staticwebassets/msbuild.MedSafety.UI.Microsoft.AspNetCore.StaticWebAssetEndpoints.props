@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/css/styles.3ymsx4h8xl.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ymsx4h8xl"},{"Name":"integrity","Value":"sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="},{"Name":"label","Value":"_content/MedSafety.UI/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"45907"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 09:05:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/css/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"45907"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221TtszJXCgBiY/WILsJGJMLVqZ95Cr1nkf0UQbzZtOuo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 09:05:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zNjdv3ik2\u002B0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30336"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zNjdv3ik2\u002B0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 09:05:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/index.o9bnkrih81.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o9bnkrih81"},{"Name":"integrity","Value":"sha256-zNjdv3ik2\u002B0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k="},{"Name":"label","Value":"_content/MedSafety.UI/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30336"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zNjdv3ik2\u002B0nqHBfWeRrl1dxZYfk7bC3vH0m2zsZ75k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 09:05:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/js/app.a3qdn4qyhg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a3qdn4qyhg"},{"Name":"integrity","Value":"sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="},{"Name":"label","Value":"_content/MedSafety.UI/js/app.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"91972"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 08:25:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedSafety.UI/js/app.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"91972"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qhNhk0MnoTXbgi5YWK3U2wTl8kBnaZPADkS1hGrRLO4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 08:25:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
